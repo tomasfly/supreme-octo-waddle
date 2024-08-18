@@ -1,0 +1,14 @@
+# Exclude node_modules directory
+node_modules
+
+# Exclude Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Exclude Kubernetes-related files
+k8s/deployment.yaml
+k8s/service.yaml
+
+# Exclude development files
+*.log
+*.env
